@@ -1,0 +1,271 @@
+/* Utilidades */
+.u-containerDefault
+{
+	margin: 0 auto;
+	width: 800px;
+}
+.u-title
+{
+	color: #00dbff;
+	border-bottom: 3px dashed #00dbff;
+	padding-bottom: .5em;
+	text-align: center;
+	font-weight: 400;
+}
+
+/* Componentes */
+/* MainMenu */
+.MainMenu
+{
+	background: #1e1e1e;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.MainMenu-link
+{
+	color: #00dbff;
+	text-decoration: none;
+	font-size: 1.25em;
+	margin: 0 1.25em;
+	line-height: 60px;
+}
+.MainMenu-link:hover
+{
+	color: white;
+}
+.MainMenu-list
+{
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-item
+{
+	display: inline-block;
+}
+
+/* Header */
+.Header
+{
+	margin-top: 3.75em;
+	background-image: url('../images/portada.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	text-align: center;
+	padding: 1.2em 0;
+}
+.Header-image
+{
+	border: 6px solid white;
+	border-radius: 50%;
+}
+.Header-image:hover
+{
+	border: 6px solid orange;
+	-webkit-transition: 1s;
+}
+.Header-imageContainer
+{ 
+	margin: 0;
+}
+.Header-link, .Header-name 
+{
+	color: white;
+}
+.Header-link
+{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.Header-name 
+{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0;
+}
+
+/* Profile */
+.Profile
+{
+	text-align: center;
+}
+.Profile-description
+{
+	margin-bottom: 2em;
+}
+.Profile-link
+{
+	background-color: orange;
+	padding: .3em .7em;
+	border-radius: 1.5em;
+	text-decoration: none;
+	font-size: 1.5em;
+	color: white;
+	margin: 1em .5em 1em 0;
+	-webkit-transition: all 0.5s ease;
+}
+.Profile-link:hover
+{
+	-webkit-box-shadow: 0px 0px 20px rgba(0,0,0,0.8);
+}
+.facebook, .twitter, .web
+{
+	font-family: 'Open Sans',sans-serif;
+}
+.facebook{background: #0582C1;}
+.facebook:before
+{ 
+	content: "\e603";
+	display: inline;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	margin-right: .5em;
+	text-transform: none;
+}
+.twitter{background: #03BBE5;}
+.twitter:before
+{ 
+	content: "\e604";
+	display: inline;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	margin-right: .5em;
+	text-transform: none;
+}
+.web{}
+.web:before
+{
+	content: "\e602";
+	display: inline;
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	margin-right: .5em;
+	text-transform: none;
+}
+.Profile-list
+{
+	padding: 1em 0 .5em 0;
+	margin: 0 auto;
+	text-align: left;
+	width: 770px;
+}
+.Profile-listItem
+{
+	display: inline-block;
+	width: 45%;
+	vertical-align: top;
+	margin: 1.2em 1em 0 0;
+}
+.Profile-listItem:before
+{
+	content: "\e600";
+	color: #00dbff;
+	display: block;
+	float: left;
+	font-family: 'icomoon';
+	speak: none;
+	font-size: 3em;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	padding-right: .3em;
+	text-transform: none;
+}
+
+/* Work */
+.Work
+{
+	text-align: center;
+}
+.Work-description
+{
+	color: #515151;
+	font-size: 1.1em;
+	font-style: italic;
+	width: 15em;
+}
+.Work-item
+{
+	display: inline-block;
+	margin-right: 1.8em;
+	margin-bottom: 1.8em;
+}
+.Work-image{}
+.Work-image:hover
+{
+	background: #03BBE5;
+}
+.Work-imageContainer
+{
+	margin: 0; 
+}
+
+/* Footer */
+.Footer
+{
+	background-image: url('../images/footer.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	text-align: center;
+	padding: 2em 0;
+}
+.Footer-button
+{
+	background: orange;
+	color: white;
+	border-radius: 1.2em;
+	padding: .5em 2em;
+	border: none;
+}
+.Footer-button:hover
+{
+	background: #0582C1;
+}
+.Footer-container
+{
+	width: 900px;
+	margin: 0 auto;
+}
+.Footer-form
+{
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+}
+.Footer-input, .Footer-textarea
+{
+	border: none;
+	background: white;
+	display: block;
+	border-radius: 1.5em;
+	padding: .5em 1em;
+	outline: 0;
+	margin: 0 auto 1em auto;
+}
+.Footer-left
+{
+	display: inline-block;
+	width: 40%;
+	vertical-align: top;
+}
+/* .Footer-textarea{ resize:none;} */
+.Footer-title
+{
+	color: white;
+	margin: 0 auto 1em auto;
+}
