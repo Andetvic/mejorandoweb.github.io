@@ -242,7 +242,6 @@
 .Work-imageContainer-container
 {
 	position: relative;
-	height: 245px;
 }
 .Work-imageContainer-container:hover .Work-imageDetail
 {
@@ -306,4 +305,61 @@
 {
 	color: white;
 	margin: 0 auto 1em auto;
+}
+
+@media screen and (max-width: 480px)
+{
+	.u-containerDefault
+	{
+		margin: 0 auto;
+		width: 480px;
+	}
+	.MainMenu
+	{
+		background: #1e1e1e;
+		text-align: center;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 20;
+	}
+	.Header-image
+	{
+		width: 170px;
+	}
+	.Header-imageLink
+	{
+		width: 70px;
+	}
+	.Header-imageLink:first-child
+	{
+		padding-right: 2.7em;
+	}
+	.Header-imageLink:last-child
+	{
+		padding-left: .5em;
+	}
+	.Profile-link
+	{
+		display: block;
+		width: 250px;
+		margin: .5em auto;
+	}
+	.Profile-listItem
+	{
+		display: block;
+		width: 60%;
+		vertical-align: top;
+		margin: 1.2em 1em 0 0;
+	}
+	.Footer-container
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.Footer-form, .Footer-left
+	{
+		display: inline-block;
+		width: 100%;
+	}
 }
