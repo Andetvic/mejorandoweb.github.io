@@ -63,10 +63,18 @@
 	border: 6px solid white;
 	border-radius: 50%;
 }
-.Header-image:hover
+.Header-imageLink
 {
-	border: 6px solid orange;
-	-webkit-transition: 1s;
+	display: inline-block;
+	vertical-align: 150%;
+}
+.Header-imageLink:first-child
+{
+	padding-right: 2em;
+}
+.Header-imageLink:last-child
+{
+	padding-left: 2em;
 }
 .Header-imageContainer
 { 
@@ -204,14 +212,28 @@
 	margin-right: 1.8em;
 	margin-bottom: 1.8em;
 }
-.Work-image{}
-.Work-image:hover
+.Work-image
 {
-	background: #03BBE5;
+	/*position: absolute;*/
+}
+.Work-imageDetail
+{
+	position: absolute;
+	display: none;
 }
 .Work-imageContainer
 {
 	margin: 0; 
+	width: 245px;
+}
+.Work-imageContainer-container
+{
+	position: relative;
+	height: 245px;
+}
+.Work-imageContainer-container:hover .Work-imageDetail
+{
+	display: block;
 }
 
 /* Footer */
