@@ -54,7 +54,7 @@
 	background-image: url('../images/portada.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 	text-align: center;
 	padding: 1.2em 0;
 }
@@ -220,7 +220,7 @@
 	background-image: url('../images/footer.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100%;
+	background-size: cover;
 	text-align: center;
 	padding: 2em 0;
 }
