@@ -363,3 +363,16 @@
 		width: 100%;
 	}
 }
+
+@media screen and (max-width: 800px)
+{
+	.u-containerDefault
+	{
+		margin: 0 auto;
+		width: 750px;
+	}
+	.Footer-container
+	{
+		width: 750px;
+	}
+}
